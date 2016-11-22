@@ -1,0 +1,8 @@
+{
+    "name": "broker",
+    "description": "",
+    "dependencies": {
+        "mosca": "*", 
+        "redis": "*"
+    }
+}
