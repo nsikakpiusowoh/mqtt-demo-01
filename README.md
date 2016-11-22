@@ -1,64 +1,10 @@
 MQTT-DEMO
 =========
-There are two types of broker here and kindly choose:
+There are two types of broker and kindly choose one:
 
 * broker-mongodb - easy to setup in Windows
 
 * broker-redis - easy to setup in Linux/*nix
-
-# Run MQTT-demo in Windows LOCALLY (in 1 PC)
---------------------------------------------
-## setup broker-mongodb
-
-* Download and install MongoDB. 
-
-* Open Command Prompt, create database directory
-```shell
-$ mkdir C:\data
-$ mkdir C:\data\db
-```
-
-* run MongoDB (mongod)
-```shell
-$ "C:\Program Files\MongoDB\Server\3.2\bin\mongod.exe" --dbpath "C:\data\db"
-```
-
-* Open Git Bash in mqtt-broker project directory. By default, the code (broker-mongodb.js) run with local MongoDB (written localhost there). Resolve dependencies by entering this command:
-```shell
-$ npm install --save
-```
-
-* Upon successful, run broker:
-```shell
-$ node broker-mongodb.js
-```
-
-## setup mqtt-client
-
-* Open Git Bash in mqtt-client project directory. Kindly note that, the code (mqtt-client) connects to local broker (broker-mongodb). Resolve dependencies first:
-```shell
-$ npm install --save
-```
-
-* Upon successful, run client:
-```shell
-$ node mqtt-client.js
-```
-
-## setup mqtt-sn (SN - Sensor Node)
-
-* Open Git Bash in mqtt-sn project directory. Resolve dependencies:
-```shell
-$ npm install --save
-```
-
-* Run your sensor node:
-```shell
-$ node mqtt-sn.js
-```
-
-### Screenshot
-![MQTT-Demo local setup]()
 
 # Run MQTT-demo in Intel Galileo/Edison and PC
 -----------------------------------------------
