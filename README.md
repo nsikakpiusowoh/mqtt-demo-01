@@ -8,7 +8,7 @@ There are two types of broker and kindly choose one:
 
 # Run MQTT-demo in Intel Galileo/Edison and PC (Windows)
 --------------------------------------------------------
-## setup broker-mongodb in your PC
+## Setup MongoDB in Windows
 
 * Download and install MongoDB. 
 
