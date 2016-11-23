@@ -6,6 +6,8 @@ There are two types of broker and kindly choose one:
 
 * broker-redis - easy to setup in Linux/*nix
 
+Read the [guideline](https://github.com/usmcs-pdcc/mqtt-demo-01/tree/master/guideline-pptx) on how to setup the mqtt demo. 
+
 # Run MQTT-demo in Intel Galileo/Edison and PC (Windows)
 --------------------------------------------------------
 ## Setup MongoDB in Windows
