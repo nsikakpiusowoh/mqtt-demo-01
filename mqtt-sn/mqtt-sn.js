@@ -9,7 +9,7 @@ var sn = mqtt.connect('mqtt://10.207.146.83'); // replace with your PC IP Addres
 
 // Change accordingly, in this example
 // I'm using analog pin A0 for moisture sensor
-var moisture = new m.Gpio(0);
+var moisture = new m.Aio(0);
 
 sn.on('connect', function() {
 	console.log("sn connected");
