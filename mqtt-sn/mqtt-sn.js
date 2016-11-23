@@ -19,6 +19,6 @@ sn.on('connect', function() {
 	setInterval(function() {
 		var data = moisture.read();
 		console.log("data: " + data);
-		client.publish('moisture', data.toString());
+		sn.publish('moisture', data.toString());
 	}, 1000);
 });
